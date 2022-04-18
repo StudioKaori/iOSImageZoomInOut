@@ -13,6 +13,7 @@
 		438EB929280DEBCF009F783F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438EB927280DEBCF009F783F /* Main.storyboard */; };
 		438EB92B280DEBD3009F783F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438EB92A280DEBD3009F783F /* Assets.xcassets */; };
 		438EB92E280DEBD3009F783F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438EB92C280DEBD3009F783F /* LaunchScreen.storyboard */; };
+		438EB939280DEECF009F783F /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 438EB938280DEECF009F783F /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		438EB92A280DEBD3009F783F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438EB92D280DEBD3009F783F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438EB92F280DEBD3009F783F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438EB938280DEECF009F783F /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		438EB920280DEBCF009F783F /* ImageZoomInOut */ = {
 			isa = PBXGroup;
 			children = (
+				438EB937280DEE8E009F783F /* images */,
 				438EB921280DEBCF009F783F /* AppDelegate.swift */,
 				438EB923280DEBCF009F783F /* SceneDelegate.swift */,
 				438EB925280DEBCF009F783F /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				438EB92F280DEBD3009F783F /* Info.plist */,
 			);
 			path = ImageZoomInOut;
+			sourceTree = "<group>";
+		};
+		438EB937280DEE8E009F783F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				438EB938280DEECF009F783F /* image1.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438EB92E280DEBD3009F783F /* LaunchScreen.storyboard in Resources */,
+				438EB939280DEECF009F783F /* image1.png in Resources */,
 				438EB92B280DEBD3009F783F /* Assets.xcassets in Resources */,
 				438EB929280DEBCF009F783F /* Main.storyboard in Resources */,
 			);
