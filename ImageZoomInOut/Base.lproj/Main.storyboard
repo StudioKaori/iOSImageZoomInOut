@@ -17,18 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Np-38-pde">
-                                <rect key="frame" x="0.0" y="130" width="414" height="345"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kpZ-RR-pMM">
-                                        <rect key="frame" x="0.0" y="1" width="414" height="19"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kpZ-RR-pMM">
+                                        <rect key="frame" x="0.0" y="1" width="414" height="895"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="kpZ-RR-pMM" firstAttribute="leading" secondItem="Szb-L4-2vn" secondAttribute="leading" id="0v8-4M-ZX5"/>
-                                    <constraint firstItem="kpZ-RR-pMM" firstAttribute="top" secondItem="Szb-L4-2vn" secondAttribute="top" id="VeI-Ay-hCe"/>
-                                    <constraint firstItem="Szb-L4-2vn" firstAttribute="trailing" secondItem="kpZ-RR-pMM" secondAttribute="trailing" id="W0t-82-F8y"/>
-                                    <constraint firstItem="Szb-L4-2vn" firstAttribute="bottom" secondItem="kpZ-RR-pMM" secondAttribute="bottom" id="xMU-ja-6QP"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="mh7-V8-T0g"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Szb-L4-2vn"/>
                             </scrollView>
@@ -36,9 +31,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0Np-38-pde" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="9A0-xk-e0v"/>
-                            <constraint firstItem="0Np-38-pde" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jt0-PP-VhG"/>
-                            <constraint firstItem="0Np-38-pde" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rtn-Ik-0gf"/>
+                            <constraint firstItem="0Np-38-pde" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Vg-EQ-mbQ"/>
+                            <constraint firstItem="0Np-38-pde" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BGh-a4-sAB"/>
+                            <constraint firstItem="0Np-38-pde" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Bdl-oK-dcv"/>
+                            <constraint firstAttribute="bottom" secondItem="0Np-38-pde" secondAttribute="bottom" id="mhC-GV-AEw"/>
                         </constraints>
                     </view>
                     <connections>
